@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rent-a-car", "rent-a-car\rent-a-car.csproj", "{3613561F-EDC5-4B8B-A39C-BBFE5E98E58B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A958AB6-64B3-43E9-8893-B7889A190BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3613561F-EDC5-4B8B-A39C-BBFE5E98E58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3613561F-EDC5-4B8B-A39C-BBFE5E98E58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3613561F-EDC5-4B8B-A39C-BBFE5E98E58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3613561F-EDC5-4B8B-A39C-BBFE5E98E58B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
