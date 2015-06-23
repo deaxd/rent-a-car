@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.msGlavnaForma = new System.Windows.Forms.MenuStrip();
             this.automobiliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dodajNoviAutomobilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,13 +40,19 @@
             this.dodajNovogZaposlenikaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.popisZaposlenikaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.odjavaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnRacun = new System.Windows.Forms.Button();
-            this.btnPosudba = new System.Windows.Forms.Button();
+            this.btnKreirajRacun = new System.Windows.Forms.Button();
+            this.btnKreirajPosudba = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bazaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bazaDataSet = new rent_a_car.bazaDataSet();
             this.btnUredi = new System.Windows.Forms.Button();
             this.btnIzbrisi = new System.Windows.Forms.Button();
+            this.posudbeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.računiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msGlavnaForma.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bazaDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bazaDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // msGlavnaForma
@@ -54,6 +61,8 @@
             this.automobiliToolStripMenuItem,
             this.klijentiToolStripMenuItem,
             this.zaposleniciToolStripMenuItem,
+            this.posudbeToolStripMenuItem,
+            this.računiToolStripMenuItem,
             this.odjavaToolStripMenuItem});
             this.msGlavnaForma.Location = new System.Drawing.Point(0, 0);
             this.msGlavnaForma.Name = "msGlavnaForma";
@@ -134,25 +143,25 @@
             this.odjavaToolStripMenuItem.Text = "Odjava";
             this.odjavaToolStripMenuItem.Click += new System.EventHandler(this.odjavaToolStripMenuItem_Click);
             // 
-            // btnRacun
+            // btnKreirajRacun
             // 
-            this.btnRacun.Location = new System.Drawing.Point(57, 202);
-            this.btnRacun.Name = "btnRacun";
-            this.btnRacun.Size = new System.Drawing.Size(170, 80);
-            this.btnRacun.TabIndex = 1;
-            this.btnRacun.Text = "Kreiraj racun";
-            this.btnRacun.UseVisualStyleBackColor = true;
-            this.btnRacun.Click += new System.EventHandler(this.btnRacun_Click);
+            this.btnKreirajRacun.Location = new System.Drawing.Point(57, 201);
+            this.btnKreirajRacun.Name = "btnKreirajRacun";
+            this.btnKreirajRacun.Size = new System.Drawing.Size(170, 80);
+            this.btnKreirajRacun.TabIndex = 1;
+            this.btnKreirajRacun.Text = "Kreiraj racun";
+            this.btnKreirajRacun.UseVisualStyleBackColor = true;
+            this.btnKreirajRacun.Click += new System.EventHandler(this.btnRacun_Click);
             // 
-            // btnPosudba
+            // btnKreirajPosudba
             // 
-            this.btnPosudba.Location = new System.Drawing.Point(57, 81);
-            this.btnPosudba.Name = "btnPosudba";
-            this.btnPosudba.Size = new System.Drawing.Size(170, 80);
-            this.btnPosudba.TabIndex = 2;
-            this.btnPosudba.Text = "Kreiraj posudbu";
-            this.btnPosudba.UseVisualStyleBackColor = true;
-            this.btnPosudba.Click += new System.EventHandler(this.btnPosudba_Click);
+            this.btnKreirajPosudba.Location = new System.Drawing.Point(57, 81);
+            this.btnKreirajPosudba.Name = "btnKreirajPosudba";
+            this.btnKreirajPosudba.Size = new System.Drawing.Size(170, 80);
+            this.btnKreirajPosudba.TabIndex = 2;
+            this.btnKreirajPosudba.Text = "Kreiraj posudbu";
+            this.btnKreirajPosudba.UseVisualStyleBackColor = true;
+            this.btnKreirajPosudba.Click += new System.EventHandler(this.btnPosudba_Click);
             // 
             // dataGridView1
             // 
@@ -164,6 +173,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(717, 319);
             this.dataGridView1.TabIndex = 3;
+            // 
+            // bazaDataSetBindingSource
+            // 
+            this.bazaDataSetBindingSource.DataSource = this.bazaDataSet;
+            this.bazaDataSetBindingSource.Position = 0;
+            // 
+            // bazaDataSet
+            // 
+            this.bazaDataSet.DataSetName = "bazaDataSet";
+            this.bazaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // btnUredi
             // 
@@ -185,7 +204,19 @@
             this.btnIzbrisi.Text = "Izbrisi";
             this.btnIzbrisi.UseVisualStyleBackColor = true;
             // 
-            // GlavnaFormaAdmin
+            // posudbeToolStripMenuItem
+            // 
+            this.posudbeToolStripMenuItem.Name = "posudbeToolStripMenuItem";
+            this.posudbeToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.posudbeToolStripMenuItem.Text = "Posudbe";
+            // 
+            // računiToolStripMenuItem
+            // 
+            this.računiToolStripMenuItem.Name = "računiToolStripMenuItem";
+            this.računiToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.računiToolStripMenuItem.Text = "Računi";
+            // 
+            // glavnaFormaAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -195,15 +226,17 @@
             this.Controls.Add(this.btnIzbrisi);
             this.Controls.Add(this.btnUredi);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnPosudba);
-            this.Controls.Add(this.btnRacun);
+            this.Controls.Add(this.btnKreirajPosudba);
+            this.Controls.Add(this.btnKreirajRacun);
             this.Controls.Add(this.msGlavnaForma);
             this.MainMenuStrip = this.msGlavnaForma;
-            this.Name = "GlavnaFormaAdmin";
+            this.Name = "glavnaFormaAdmin";
             this.Text = "Rent-A-Car aplikacija";
             this.msGlavnaForma.ResumeLayout(false);
             this.msGlavnaForma.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bazaDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bazaDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,8 +248,8 @@
         private System.Windows.Forms.ToolStripMenuItem automobiliToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem klijentiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zaposleniciToolStripMenuItem;
-        private System.Windows.Forms.Button btnRacun;
-        private System.Windows.Forms.Button btnPosudba;
+        private System.Windows.Forms.Button btnKreirajRacun;
+        private System.Windows.Forms.Button btnKreirajPosudba;
         private System.Windows.Forms.ToolStripMenuItem odjavaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dodajNoviAutomobilToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem popisAutomobilaToolStripMenuItem;
@@ -227,5 +260,9 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnUredi;
         private System.Windows.Forms.Button btnIzbrisi;
+        private System.Windows.Forms.BindingSource bazaDataSetBindingSource;
+        private bazaDataSet bazaDataSet;
+        private System.Windows.Forms.ToolStripMenuItem posudbeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem računiToolStripMenuItem;
     }
 }

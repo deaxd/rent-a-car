@@ -1,0 +1,16 @@
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\bin\Debug\rent-a-car.exe.config
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\bin\Debug\baza.sdf
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\bin\Debug\rent-a-car.exe
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\bin\Debug\rent-a-car.pdb
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent-a-car.csprojResolveAssemblyReference.cache
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.Properties.Resources.resources
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent-a-car.csproj.GenerateResource.Cache
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent-a-car.exe
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent-a-car.pdb
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.LogIn.resources
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.kreirajPosudba.resources
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.kreirajRacun.resources
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.kreirajAutomobil.resources
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.kreirajKlijent.resources
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.GlavnaFormaAdmin.resources
+D:\Users\Andrea\Documents\GitHub\Andrea\rent-a-car\rent-a-car\obj\Debug\rent_a_car.kreirajZaposlenik.resources
